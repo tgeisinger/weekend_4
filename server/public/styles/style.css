@@ -1,0 +1,75 @@
+
+#task {
+  width:400px;
+}
+
+@keyframes example {
+    from {color: red;}
+    to {color: green;}
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: green;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+}
+
+h2{
+  text-align: center;
+  color:red;
+}
+
+#dataDisplay {
+  padding-top: 30px
+}
+
+.row{
+  font-size: 20px;
+  text-align: center;
+  background-color: #ff4d4d;
+  width:400px;
+}
+
+
+.remove {
+    background-color: red;
+}
+
+#task{
+text-align: center;
+
+}
+
+body {
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(129,218,129,1)), color-stop(8%, rgba(129,218,129,1)), color-stop(23%, rgba(200,238,209,1)), color-stop(32%, rgba(159,219,172,1)), color-stop(45%, rgba(204,217,196,1)), color-stop(57%, rgba(227,222,209,1)), color-stop(71%, rgba(254,227,225,1)), color-stop(100%, rgba(234,133,133,1)));
+background: -webkit-linear-gradient(left, rgba(129,218,129,1) 0%, rgba(129,218,129,1) 8%, rgba(200,238,209,1) 23%, rgba(159,219,172,1) 32%, rgba(204,217,196,1) 45%, rgba(227,222,209,1) 57%, rgba(254,227,225,1) 71%, rgba(234,133,133,1) 100%);
+background: -o-linear-gradient(left, rgba(129,218,129,1) 0%, rgba(129,218,129,1) 8%, rgba(200,238,209,1) 23%, rgba(159,219,172,1) 32%, rgba(204,217,196,1) 45%, rgba(227,222,209,1) 57%, rgba(254,227,225,1) 71%, rgba(234,133,133,1) 100%);
+background: -ms-linear-gradient(left, rgba(129,218,129,1) 0%, rgba(129,218,129,1) 8%, rgba(200,238,209,1) 23%, rgba(159,219,172,1) 32%, rgba(204,217,196,1) 45%, rgba(227,222,209,1) 57%, rgba(254,227,225,1) 71%, rgba(234,133,133,1) 100%);
+background: linear-gradient(to right, rgba(129,218,129,1) 0%, rgba(129,218,129,1) 8%, rgba(200,238,209,1) 23%, rgba(159,219,172,1) 32%, rgba(204,217,196,1) 45%, rgba(227,222,209,1) 57%, rgba(254,227,225,1) 71%, rgba(234,133,133,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81da81', endColorstr='#ea8585', GradientType=1 );
+
+
+}
+
+#dataDisplay{
+height: 20px;
+width: 600px;
+margin: auto;
+}
+
+#infoDisplay{
+height: 100px;
+width: 600px;
+margin: auto;
+
+}
+
+#complete {
+  color: green;
+  padding-top: 20px
+}
